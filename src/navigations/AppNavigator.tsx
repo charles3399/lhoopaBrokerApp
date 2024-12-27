@@ -64,7 +64,7 @@ const Tabs = () => {
                                     <Image
                                         // style={styles.tinyIcon}
                                         style={styles.menuIcon}
-                                        source={require('../assets/images/icons/navigation/home-new.png')}
+                                        source={require('_assets/images/icons/navigation/home-new.png')}
                                     />
                                 </View>
                             );
@@ -74,7 +74,7 @@ const Tabs = () => {
                                 <View style={containerStyle}>
                                     <Image
                                         style={styles.menuIcon}
-                                        source={require('../assets/images/icons/navigation/inventory-new.png')}
+                                        source={require('_assets/images/icons/navigation/inventory-new.png')}
                                     />
                                 </View>
                             );
@@ -84,7 +84,7 @@ const Tabs = () => {
                                 <View style={containerStyle}>
                                     <Image
                                         style={styles.menuIcon}
-                                        source={require('../assets/images/icons/navigation/closed-deals.png')}
+                                        source={require('_assets/images/icons/navigation/closed-deals.png')}
                                     />
                                 </View>
                             );
@@ -94,7 +94,7 @@ const Tabs = () => {
                                 <View style={containerStyle}>
                                     <Image
                                         style={styles.menuIcon}
-                                        source={require('../assets/images/icons/navigation/profile-new.png')}
+                                        source={require('_assets/images/icons/navigation/profile-new.png')}
                                     />
                                 </View>
                             );
@@ -104,7 +104,7 @@ const Tabs = () => {
                                 <View style={containerStyle}>
                                     <Image
                                         style={styles.menuIcon}
-                                        source={require('../assets/images/icons/navigation/submitted-properties-new.png')}
+                                        source={require('_assets/images/icons/navigation/submitted-properties-new.png')}
                                     />
                                 </View>
                             );
@@ -124,7 +124,7 @@ const Tabs = () => {
                                 <View style={containerStyle}>
                                     <Image
                                         style={[styles.menuIcon, {opacity: .4}]}
-                                        source={require('../assets/images/icons/navigation/network.png')}
+                                        source={require('_assets/images/icons/navigation/network.png')}
                                     />
                                 </View>
                             );
