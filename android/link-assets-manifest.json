@@ -1,0 +1,69 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/DMSans-Bold.ttf",
+      "sha1": "ef47944cd61dfd6889e7f0bb7596d87849d0e6cb"
+    },
+    {
+      "path": "src/assets/fonts/DMSans-Regular.ttf",
+      "sha1": "f1cf9ed15e1ec1db951c401233655dbbd304c732"
+    },
+    {
+      "path": "src/assets/fonts/Dongle-Bold.ttf",
+      "sha1": "75fcc4437ae92bd5b3f0c064fc9891a3bc2aba67"
+    },
+    {
+      "path": "src/assets/fonts/Dongle-Light.ttf",
+      "sha1": "6e627ff8bf24d576b66548bc2652aee816d99ac4"
+    },
+    {
+      "path": "src/assets/fonts/Dongle-Regular.ttf",
+      "sha1": "740c531d37fda2172f86e397855eb18a6b1b5825"
+    },
+    {
+      "path": "src/assets/fonts/Inter-Bold.ttf",
+      "sha1": "47ff07c75746682133b81e7ac0537ce50a4c9916"
+    },
+    {
+      "path": "src/assets/fonts/Inter-Regular.ttf",
+      "sha1": "cfa780d0b50b2bb7eacb82984f1b18a95aaa40c5"
+    },
+    {
+      "path": "src/assets/fonts/Inter-SemiBold.ttf",
+      "sha1": "5e0c44e57e7e090252d79f622899e67585bb892c"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Bold.ttf",
+      "sha1": "f68e7e93da3f4a710d28b0ee5f744b5112351401"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Light.ttf",
+      "sha1": "987ef3e07d6361fbb658624e297750133f2343bd"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Medium.ttf",
+      "sha1": "72b668cb1639c6b0588c6fffa1ae9a967409e8ae"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Regular.ttf",
+      "sha1": "a4ef48c17479236fea2197b9a68bf7c6163e0388"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-SemiBold.ttf",
+      "sha1": "e1a01a240fb449797ac08a37490d59b61a059e6d"
+    },
+    {
+      "path": "src/assets/fonts/Poppins-Thin.ttf",
+      "sha1": "561e8929100d5e1b8e6bba314ef1e59c22906eba"
+    },
+    {
+      "path": "src/assets/fonts/Raleway-Bold.ttf",
+      "sha1": "df52b051d8cbe8f238a4192d1b81e6dca2a08f72"
+    },
+    {
+      "path": "src/assets/fonts/Raleway-ExtraBold.ttf",
+      "sha1": "507ed8ef6f99e561f51f3cde5cc16e09270308d6"
+    }
+  ]
+}
