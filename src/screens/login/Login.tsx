@@ -31,6 +31,9 @@ import LoginButtonDefault from '_components/atoms/LoginButtonDefault';
 import LoginFbButton from '_components/atoms/LoginFbButton';
 import LoginAppleButton from '_components/atoms/LoginAppleButton';
 
+import { login } from '_actions/authActions';
+import useAuthStore from '_reducers/authReducer';
+
 type StringOrNull = string | null;
 
 export default function Login(props: any): React.JSX.Element {
@@ -53,6 +56,8 @@ export default function Login(props: any): React.JSX.Element {
     const [message, setMessage] = useState<string>('');
     const [show, setShow] = useState<boolean>(false);
     const [showPassword, setShowPassword] = useState<boolean>(false);
+
+    const { user, updateUser, logout } = useAuthStore();
 
     useEffect(() => {
         let initRoute = "";
@@ -110,11 +115,20 @@ export default function Login(props: any): React.JSX.Element {
         }, 50);
     };
 
-    const _onLogin = () => {
+    const _onLogin = async () => {
+        // logout();
+        // console.log('user', user);
         if (isLoginButtonDisabled) return;
 
         setIsLoginLoading(true);
-        props.onLogin(form)
+        
+        try {
+            await login(form.username, form.password);
+        } catch (error) {
+            console.log('Errorz', error);
+        } finally {
+            setIsLoginLoading(false);
+        }
     };
 
     const getPublicProfile = async () => {
@@ -125,7 +139,6 @@ export default function Login(props: any): React.JSX.Element {
                 if (error) {
                     console.log('Error fetching data: ' + error.toString());
                 } else {
-                    console.log(result, 'test2');
                     setFirstName(result.first_name);
                     setLastName(result.last_name);
                     setName(result.name);
